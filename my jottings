@@ -1,0 +1,359 @@
+ 1  ls
+    2  pwd
+    3  cd desktop
+    4  cd desktop/
+    5  ls -lr
+    6  mkdir bobby
+    7  ls
+    8  cd bobby
+    9  touch apple.txt
+   10  ls
+   11  nano march.sh
+   12  sh march.sh
+   13  cat march.sh
+   14  nano octorber.sh
+   15  sh octorber.sh
+   16  nano octorber.sh
+   17  sh.octorber.sh
+   18  ls
+   19  bash octorber.sh
+   20  nano octorber.sh
+   21  sh.octorber.sh
+   22  nano octorber.sh
+   23  sh.octorber.sh
+   24  nano octorber.sh
+   25  sh.octorber.sh
+   26  nano octorber.sh
+   27  sh octorber.sh
+   28  cat octorber.sh
+   29  history
+
+637423489739
+
+
+TJddUsg8181/
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::holiday1980bucket/*"
+            ]
+        }
+    ]
+}
+
+
+
+
+
+
+#!/bin/bash
+provider="Hostinger"
+echo 'The best hosting provider is $provider'
+echo "The best hosting provider is $provider"
+
+
+|
+#!/bin/bash
+FIRST_NAME=Julius
+LAST_NAME=Omotosho
+echo Hello $FIRST_NAME $LAST_NAME
+
+
+groups-dev developers of -10 developers-ec2,vpc,storage
+group accounts -5
+funmilayo -audit
+no persmission on ec2
+but grant permission on storage
+MFA multi factor authentification
+
+....................................................................................................................................................................................................
+
+ 1  ls
+    2  pwd
+    3  cd desktop
+    4  cd desktop/
+    5  ls -lr
+    6  mkdir bobby
+    7  ls
+    8  cd bobby
+    9  touch apple.txt
+   10  ls
+   11  nano march.sh
+   12  sh march.sh
+   13  cat march.sh
+   14  nano octorber.sh
+   15  sh octorber.sh
+   16  nano octorber.sh
+   17  sh.octorber.sh
+   18  ls
+   19  bash octorber.sh
+   20  nano octorber.sh
+   21  sh.octorber.sh
+   22  nano octorber.sh
+   23  sh.octorber.sh
+   24  nano octorber.sh
+   25  sh.octorber.sh
+   26  nano octorber.sh
+   27  sh octorber.sh
+   28  cat octorber.sh
+   29  history
+   30  date
+   31  sudo apt update
+   32  mkdir house
+   33  ls
+   34  cd house
+   35  mkdir smash.sh
+   36  ls
+   37  nano smash.sh
+   38  cd smash.sh
+   39  nano smash.sh
+   40  sh smash.sh
+   41  echo smash.sh
+   42  cat smash.sh
+   43  cd
+   44  ls
+   45  nano system.sh
+   46*
+   47  nano system.sh
+   48  cat smash.sh
+   49  sh system.sh
+   50  uptime
+   51  date
+   52  free -m
+   53  nano inodesdisk.sh
+   54  sh smash.sh
+   55  sh inodesdisk.sh
+   56  nano exists.sh
+   57  sh exists.sh
+   58  touch cars.txt
+   59  ls
+   60  sh exists.sh
+   61  nano deletefiles.sh
+   62  ls
+   63  rm cars.txt
+   64  ls
+   65  sh deletefiles.sh
+   66  cat deletefiles.sh
+   67  nano deletefiles.sh
+   68  sh deletefiles.sh
+   69  ls
+   70  nano directories.sh
+   71  sh directories.sh
+   72  ls
+   73  nano directories.sh
+   74  sh directories.sh
+   75  ls
+   76  cd Math
+   77  ls -lr
+   78  cd {Math,English,Geography,Arts}
+   79  nano directories.sh
+   80  sh directories.sh
+   81  ls
+   82  cd Math
+   83  cd Math,English,Geography,Arts
+   84  ls
+   85  touch Bbolly
+   86  ls
+   87  cd
+   88  history
+
+
+
+Commands used to host MySql Server on AWS EC2 Instance
+.......................................................................................................
+Step 1: Update the system
+sudo apt update
+
+Step 2: Install MySql
+sudo apt install mysql-server
+
+Step 3: Check the Status of MySql (Active or Inactive)
+sudo systemctl status mysql
+
+Step 4: Login to MySql as a root
+sudo mysql
+
+Step 5: Update the password for the MySql Server
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'place-your-password-here';
+
+FLUSH PRIVILEGES;
+
+Step 6: Test the MySql server if it is working by running sample sql queries
+CREATE DATABASE mysql_test;
+
+USE mysql_test;
+
+CREATE TABLE table1 (id INT, name VARCHAR(45));
+
+INSERT INTO table1 VALUES(1, 'Virat'), (2, 'Sachin'), (3, 'Dhoni'), (4, 'ABD');
+
+SELECT * FROM table1;
+
+
+Host your personal site on AWS EC2 Instance | EC2 Instance | Demo | Website Hosting | Web App on EC2
+
+sudo su -
+yum update -y
+yum install -y httpd
+systemctl status httpd
+mkdir temp
+cd temp
+wget https://www.free-css.com/assets/files...
+unzip complex.zip
+cd complex
+ls -lrt
+mv * /var/www/html
+systemctl enable httpd
+systemctl start httpd
+
+
+..................................................................................................................................
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "allows3access",
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": "*"
+        }
+    ]
+}
+
+
+
+
+1  sudo yum update
+    2  sudo yum install nginx
+    3  sudo yum status nginx
+    4  sudo systemctl enable nginx
+    5  sudo systemctl start nginx
+    6  sudo systemctl status nginx
+    7  sudo yum install apache
+    8  sudo yum install apache2
+    9  sudo yum install httpd
+   10  sudo yum update
+   11  sudo systemctl status nginx
+   12  sudo systemctl stop nginx
+   13  sudo yum update
+   14* 
+   15  sudo yum uninstall nginx
+   16  sudo yum remove nginx
+   17  sudo yum update
+   18  sudo yum install httpd
+   19  sudo systemctl enable httpd
+   20  sudo systemctl status httpd
+   21  history
+
+
+10.0.0.0/16
+
+sudo systemctl stop nginx-agent
+sudo yum remove nginx-agent
+sudo service nginx stop
+sudo chkconfig nginx off
+sudo yum remove nginx
+
+1  sudo app update
+    2  sudo apt update
+    3  sudo apt install nginx
+    4  sudo apt update
+    5  sudo apt install apache2
+    6  sudo mkdir /var/www/gci/
+    7  cd /var/www/gci/
+    8  nano index.html
+    9  sudo chmod -R a+rwX /var/www
+   10  nano index.html
+   11  cd /etc/apache2/sites-available/
+   12  sudo cp 000-default.conf gci.conf
+   13  sudo nano gci.conf
+   14  sudo a2ensite gci.conf
+   15  sudo su
+   16  sudo apt update
+   17  sudo apt-get install openjdk-11-jdk
+   18  sudo apt update
+   19  sudo apt install jenkins -y
+   20  sudo systemctl status jenkins
+   21  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   22  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+   23  sudo apt update
+   24  sudo apt install jenkins -y
+   25  exit
+   26  sudo apt-get update -y
+   27  sudo apt install openjdk-11-jdk -y
+   28  java -version
+   29  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | apt-key add -
+   30  sudo su
+   31  sudo apt-get update
+   32  sudo apt-get install jenkins
+   33  sudo apt-get install openjdk-17-jdk
+   34  java -version
+   35  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   36  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   37  sudo apt-get update
+   38  sudo apt-get install jenkins
+   39  sudo systemctl start jenkins.service
+   40  sudo systemctl status jenkins
+   41  history
+
+User Data
+
+#!/bin/bash
+yumupdate -y
+#!/bin/bashyum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1> Hello World This is $(hostname -f)</h1>"  > /var/www/html/index.html
+
+#!/bin/bash
+sudo yum update -y
+sudo yum install -y httpd
+sudo systemctl start httpd
+sudo systemctl enable httpd
+usermod -a -G apache ec2-user
+chown -R ec2-user:apache /var/www
+chmod 2775 /var/www
+find /var/www -type d -exec chmod 2775 {} \;
+find /var/www -type f -exec chmod 0664 {} \;
+echo "<h1> Hello World This is $(hostname -f)</h1>"  > /var/www/html/index.html
+
+https://us06web.zoom.us/j/87635412613?pwd=GhRTmehCDYa2XrJM8bYEEJ05UYitWa.1
+
+
+6 pillar of the AWS Well-Architected Framework
+
+operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability
+
+
+
+
+
+
+
+
+                             Things to put on CV
+.......................................................................................................................................
+
+Proficiency in Version Control Systems like Git, with experience in GitHub and GitLab
+
+Hands-on experience with AWS services and infrastructure, including EC2, S3, and VPC
+
+Embrace Agile methodologies to foster collaboration and iterative development approaches
+
+Understanding of Agile methodologies and their application in software development
+
+Handson experience with AWS services and infrastructure including EC2 S3 and VPC
+
+
+
+
