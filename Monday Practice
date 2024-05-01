@@ -1,0 +1,3 @@
+Today we spoke about the diffence between git pull and git push.
+Git pull is use to update changes that have occur when we are away and this is the best practice.
+Git push is use to push our changes to the remote repository.
